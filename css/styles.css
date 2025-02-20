@@ -83,14 +83,6 @@ img {
     margin: auto;
 }
 
-.one {
-    grid-column: 1 / span 3;
-}
-
-.two {
-    grid-column: 4 / span 3;
-}
-
 .testimonial {
     background: #f0f0f0;
     color: #db6363;
@@ -99,6 +91,14 @@ img {
     font-style: italic;
     letter-spacing: 3.7px;
     grid-column: 1 / 7;
+}
+
+.one {
+    grid-column: 1 / span 3;
+}
+
+.two {
+    grid-column: 4 / span 3;
 }
 
 footer {
